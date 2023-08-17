@@ -1,3 +1,3 @@
 # node-exercises
 
-all the exercises not includes the package.json !!!
+all the exercises not includes the node_modules files !!!
