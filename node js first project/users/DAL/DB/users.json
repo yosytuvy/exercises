@@ -1,0 +1,26 @@
+[
+    {
+        "email": "test1@gmail.com",
+        "password": "$2b$10$G4KfBjLfzOTGoztpIS2BNuQwYkeGKrZiH9OPV4n9roloYk4IfXiX.",
+        "id": 1,
+        "isAdmin": false
+    },
+    {
+        "email": "test2@gmail.com",
+        "password": "$2b$10$TEoWEUjeEVgicGQq617jWOS15xLPn6UvDCBoWZxwstVitWHM7isQS",
+        "id": 2,
+        "isAdmin": true
+    },
+    {
+        "email": "test3@gmail.com",
+        "password": "$2b$10$Yd/jz6mKNoJaLMMLoOVbA.E0O6NVpk6T9p7gVeN9jK7TumMZ5WOUG",
+        "id": 3,
+        "isAdmin": false
+    },
+    {
+        "email": "test4@gmail.com",
+        "password": "$2b$10$Bbif8vx4AMWnLqFaNZA1kO5mqubolzikLgCsZchSicOxouwQlRqWC",
+        "id": 4,
+        "isAdmin": false
+    }
+]
