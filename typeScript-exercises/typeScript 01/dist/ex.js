@@ -44,22 +44,37 @@ const isMinor = (person) => {
     }
     return true;
 };
-;
 const personTest = {
     Name: "yosy",
     Age: 26,
-    isStudent: true
+    isStudent: true,
+};
+const personTest1 = {
+    Name: "mosh",
+    Age: 20,
+    isStudent: false,
 };
 const bookTest = {
     Title: "life",
     Author: "hanoch",
-    Year: 2020
+    Year: 2020,
+};
+const bookTest1 = {
+    Title: "harry poter",
+    Author: "dont Know",
+    Year: 2001,
 };
 const readerTest = {
     Person: {
         ...personTest,
-        favoriteBook: bookTest
-    }
+        favoriteBook: bookTest,
+    },
+};
+const readerTest1 = {
+    Person: {
+        ...personTest1,
+        favoriteBook: bookTest1,
+    },
 };
 /**
  * The function `oldestReader` takes an array of `Reader` objects and returns the reader with the
@@ -94,3 +109,15 @@ const oldestBook = (readersArr) => {
     }
     return -1;
 };
+///         Testing:        ///
+////////////////////////////////////////////////////
+// console.log(bigger(4, 2));
+// printBigger(2, 4);
+// console.log(isEven(3));
+// console.log(lengthOfString('abcdefg'));
+// console.log(numberedArray(4));
+// console.log(maxNumInArr([2, 1, 4, 3, 5]));
+// printPerson(personTest);
+// console.log(isMinor(personTest));
+// console.log(oldestReader([readerTest, readerTest1]));
+// console.log(oldestBook([readerTest, readerTest1]));

@@ -80,16 +80,35 @@ const personTest: Person = {
     isStudent: true,
 };
 
+const personTest1: Person = {
+    Name: "mosh",
+    Age: 20,
+    isStudent: false,
+};
+
 const bookTest: Book = {
     Title: "life",
     Author: "hanoch",
     Year: 2020,
 };
 
+const bookTest1: Book = {
+    Title: "harry poter",
+    Author: "dont Know",
+    Year: 2001,
+};
+
 const readerTest: Reader = {
     Person: {
         ...personTest,
         favoriteBook: bookTest,
+    },
+};
+
+const readerTest1: Reader = {
+    Person: {
+        ...personTest1,
+        favoriteBook: bookTest1,
     },
 };
 
@@ -127,3 +146,17 @@ const oldestBook = (readersArr: Reader[]): Book | number => {
     }
     return -1;
 };
+
+///         Testing:        ///
+////////////////////////////////////////////////////
+
+// console.log(bigger(4, 2));
+// printBigger(2, 4);
+// console.log(isEven(3));
+// console.log(lengthOfString('abcdefg'));
+// console.log(numberedArray(4));
+// console.log(maxNumInArr([2, 1, 4, 3, 5]));
+// printPerson(personTest);
+// console.log(isMinor(personTest));
+// console.log(oldestReader([readerTest, readerTest1]));
+// console.log(oldestBook([readerTest, readerTest1]));
