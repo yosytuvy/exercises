@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.light-text{
+  color:bisque
+}
+
+.dark-text{
+  color:rgb(54, 54, 54);
+}
+
+.light-theme{
+  background-color: beige;
+}
+
+.dark-theme{
+  background-color: rgb(54, 54, 54);
+}
+
+.hide-div{
+  display: none;
+}
+
+.show-div{
+  display: block;
+}
