@@ -1,0 +1,160 @@
+/* trips page */
+
+.trips-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.trip-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.trip-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.trip-card h3 {
+    margin-top: 0;
+}
+
+.trip-card p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.delete-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 80px;
+    cursor: pointer;
+}
+
+/* card details page */
+
+.trip-details {
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.trip-image {
+    width: 100%;
+    object-fit: contain;
+    margin: 20px auto;
+}
+
+.details-header {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.trip-info {
+    padding: 20px;
+}
+
+h1,
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* new Trip page */
+
+.trip-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.trip-form label {
+    display: block;
+    margin: 20px 0;
+}
+
+.trip-form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.trip-form button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Page styles */
+
+.add-trip-page {
+    padding: 20px;
+}
+
+.trip-title {
+    text-align: center;
+}
+
+/* Register page */
+
+.register-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.register-page h1 {
+    text-align: center;
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-page label {
+    margin-bottom: 10px;
+}
+
+.register-page input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+.register-page button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
